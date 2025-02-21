@@ -124,3 +124,159 @@ form button {
 form button:hover {
   background-color: #34495e;
 }
+/* Back Button Styles */
+.back-button {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 800px; /* Matches .about width */
+}
+/* Existing CSS unchanged, append this: */
+
+/* Highlight Box for Current Obsession */
+.highlight {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.highlight h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+.highlight p {
+  margin: 0 0 0.5rem 0; /* Space before list */
+}
+
+.highlight ul {
+  margin: 0;
+  padding-left: 1.5rem; /* Indent bullets */
+}
+
+.highlight li {
+  margin-bottom: 0.5rem; /* Space between items */
+}
+/* Existing CSS unchanged, append this: */
+
+/* Highlight Box Styles */
+.highlight {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.highlight h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+.highlight p {
+  margin: 0 0 0.5rem 0;
+}
+
+.highlight ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.highlight li {
+  margin-bottom: 0.5rem;
+}
+
+/* Code Block Styles */
+pre {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  overflow-x: auto; /* Handles long lines */
+}
+
+code {
+  font-family: inherit; /* Matches pre */
+}
+/*append css-----------------!>*/
+
+/* Existing CSS unchanged, append this: */
+
+/* Code Block and Image Wrapper */
+.code-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.code-img {
+  max-width: 200px; /* Adjust based on your image */
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Language Icon */
+.lang-icon {
+  width: 24px; /* Small icon size */
+  height: 24px;
+  vertical-align: middle; /* Aligns with text */
+  margin-right: 0.5rem;
+}
+
+/* Snapshot Image */
+.snapshot-img {
+  max-width: 300px; /* Larger for workspace photo */
+  height: auto;
+  display: block;
+  margin: 1rem auto 0; /* Centered below text */
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Existing Highlight and Code Styles */
+.highlight {
+  background-color: #ecf0f1;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.highlight h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+.highlight p {
+  margin: 0 0 0.5rem 0;
+}
+
+.highlight ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.highlight li {
+  margin-bottom: 0.5rem;
+}
+
+pre {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  margin: 0; /* Fits in flex wrapper */
+  overflow-x: auto;
+}
+
+code {
+  font-family: inherit;
+}
